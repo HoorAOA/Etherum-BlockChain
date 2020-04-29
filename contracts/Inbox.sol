@@ -1,13 +1,13 @@
 pragma solidity ^0.4.17;
 
-contract SimpleStorage {
-    string storedData;
+contract Inbox {
+    string public message;
 
-    function set(string x) public {
-        storedData = x;
+    function Inbox(string initialMessage) public  {
+        message = initialMessage;
     }
 
-    function get() public view returns (string) {
-        return storedData;
+    function setMessage(string newMessage) public {
+        message = newMessage;
     }
 }
