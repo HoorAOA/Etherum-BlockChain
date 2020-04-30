@@ -11,12 +11,11 @@
   },
   "dependencies": {
     "ganache-cli": "^6.9.1",
+    "mocha": "^7.1.2",
     "solc": "^0.4.17",
     "web3": "^1.0.0-beta.26"
   },
-  "devDependencies": {
-    "mocha": "^7.1.2"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HoorAOA/Etherum-BlockChain.git"
